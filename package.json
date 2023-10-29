@@ -1,0 +1,16 @@
+{
+  "name": "algorithm-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kobevino/algorithm-study.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/$FILENAME",
+    "test": "jest",
+    "plop": "plop"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "plop": "^4.0.0"
+  }
+}
