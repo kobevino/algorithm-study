@@ -10,6 +10,7 @@
     "plop": "plop"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.6",
     "jest": "^29.7.0",
     "plop": "^4.0.0"
   }
