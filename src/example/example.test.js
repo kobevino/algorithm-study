@@ -1,6 +1,6 @@
 const solution = require('./kobe.js');
 
-describe('', () => {
+describe('sum', () => {
   it('should be 3', () => {
     expect(solution(1, 2)).toBe(3)
   });
