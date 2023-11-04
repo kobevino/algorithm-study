@@ -17,3 +17,9 @@ $ yarn test -- [name]
 ```
 
 > ex) yarn test -- example
+
+### Arrays & Hashing
+
+|Problem|Difficulty|Description|
+|------|---|---|
+|Contains Duplicate|Easy|[Solution](https://github.com/kobevino/algorithm-study/tree/main/src/containsDuplicate)|
