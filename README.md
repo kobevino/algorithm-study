@@ -25,3 +25,4 @@ $ yarn test -- [name]
 |Contains Duplicate|Easy|[Solution](https://github.com/kobevino/algorithm-study/tree/main/src/containsDuplicate)|
 |Valid Anagram|Easy|[Solution](https://github.com/kobevino/algorithm-study/tree/main/src/isAnagram)|
 |Two Sum|Easy|[Solution](https://github.com/kobevino/algorithm-study/tree/main/src/twoSum)|
+|Group Anagrams|Medium|[Solution](https://github.com/kobevino/algorithm-study/tree/main/src/groupAnagrams)|
