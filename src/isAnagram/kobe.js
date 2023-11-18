@@ -8,6 +8,7 @@
  * @summary 시간 복잡도 O(n) / 공간복잡도 O(1) 
  */
 function solution(s, t) {
+  if (s.length !== t.length) return false;
   const chars = new Array(26).fill(0); // 상수 크기 배열 생성
   
   for (let i = 0; i < s.length; i++) {
@@ -15,7 +16,10 @@ function solution(s, t) {
     chars[t[i].charCodeAt() - 97] -= 1;
   }
 
-  return !chars.includes(1);
+  for (const count of chars) {
+    if (count !== 0) return false;
+  }
+  return true;
 }
 
 module.exports = solution;
